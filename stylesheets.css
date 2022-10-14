@@ -1,0 +1,25 @@
+.header{
+    background-color: #1f2937;
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-link{
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: flex-start;
+}
+.header-link-three{
+
+    margin-right: 100px;
+}
+.header-link-three,
+.header-link-two{
+    margin-left: 20px;
+}
