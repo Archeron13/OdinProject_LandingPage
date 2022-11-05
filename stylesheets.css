@@ -69,10 +69,17 @@
 }
 
 
-.button{
+.sbutton{
+    border: 0px;
+    text-align: center;
+    border-radius: 5px;
+    padding:5px ;
+    height: 10%;
+    width: 20%;
     background-color: #3882F6;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
+    font-weight: 600;
 }
 
 .call{
@@ -110,15 +117,17 @@
 .canvas
 {
     margin: 30px 30px 0px 30px;
-    width: 100px; 
+    width: 120px; 
     height: auto;   
 }
 
 .caption
 {
-    width: 100px;
+    width: 120px;
     height: auto;
     margin: 0px 30px 30px 30px;
+    color: #1f2937;
+    font-weight: 350;
 }
 
 .quotes
@@ -154,7 +163,7 @@ body{
 }
 
 .call-to-action{
-    min-height: 400px;
+    min-height: 200px;
     min-width: 400px;
     height: 400px;
     display: flex;
@@ -164,7 +173,7 @@ body{
 .cta-box
 {
     background-color: #3882F6;
-    height: 30%;
+    height: 40%;
     width: 75%;
     display: flex;
     flex-direction: row;
@@ -189,9 +198,13 @@ body{
 #cta_button
 {
     background-color: #3882F6;
+    border-radius: 5px;
     border: 2px #f9faf8;
     border-style: solid;
-    padding: 5px;
+    padding: 10px;
+    width: 120%;
+    height: 60%;
     color:#f9faf8;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 600;
 }
