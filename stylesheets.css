@@ -42,30 +42,32 @@
 }
 .heading{
     margin-left: 100px;
+    max-width: 400px;
     flex-direction: column;
     display: flex;
     align-items: flex-start;
 
 }
 .upper-heading{
+    display: flex;
+    min-width: 100px;
+    align-items: flex-end;
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
 }
 .under-heading{
     font-size: 18px;
-    margin-top: -50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #e5e7eb;
 }
 .pimage{
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 300px;
-    margin-bottom: 100px;
-    object-fit: contain;
-    min-width: auto;
-    max-width: 60%;
-    height: auto
+    margin-bottom: 90px;
+    border-radius: 10px;
 }
 
 
